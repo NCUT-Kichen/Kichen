@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "kichen",
+  "version": "${version}",
+  "name": "kichen",
+  "description": "",
+  "authors": [
+    "sharbee"
+  ],
+  "contact": {
+    "repo": "https://github.com/yihuo/kichen"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/kichen/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.ncut.kichen.client.KichenClient"
+    ],
+    "main": [
+      "com.ncut.kichen.Kichen"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
